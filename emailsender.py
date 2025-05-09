@@ -24,7 +24,7 @@ def randomize_string(string):
 for i in range(0, count):
     subject = randomize_string(subject) + str(count)
     if i == 0:
-        message = "Hi dogmy name is putanegraloolrobinokokokforsure"
+        message = "Hi dogmy name is putloolrobinokokokforsure"
     else:
         message = randomize_string(message)  + str(count)
     text = f"Subject:{subject}\n\n{message}"
